@@ -7,4 +7,9 @@ It uses http://materializecss.com/ , http://angularjs.com/ and http://jquery.com
 
 First version was made by http://www.erpik.com/ and with his permission, I integrated it with AngularJS and a buch of JSON files.
 
+TO-DOs:
+- contact.php to send the email of the contact form
+- integration with common RSS/XML to fill the BLOG area
+- finalize the Lab area
+
 So, feel free to fork and use for your own website ;)
