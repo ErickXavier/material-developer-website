@@ -1,4 +1,4 @@
-### material-developer-website
+# Material Developer Website
 This is a template for developers/designers/etc who doesn't have much time to create their own website and/or portfolio online.
 
 My own example: http://erick.pro/
@@ -15,5 +15,5 @@ First version was made by http://www.erpik.com/ and with his permission, I integ
 - hide the 'top button' when not necessary
 
 
-# Creative Commons
+### Creative Commons
 So, feel free to fork and use for your own website ;)
