@@ -1,0 +1,33 @@
+[
+    {
+        "website" : {
+            "title" : "Erick Xavier | Front End Developer | Usability Expert"
+        },
+        "header" : {
+            "title" : "Erick Xavier",
+            "headline" : "Front End Developer",
+            "menu" : {
+                "aboutme" : "about me",
+                "portfolio" : "portfolio",
+                "experience" : "experience",
+                "lab" : "lab",
+                "blog" : "blog",
+                "contact" : "contact"
+            }
+        },
+        "owner" : {
+            "title" : "A little about me",
+            "description" : "I'm a 33yo Front End Developer, and currently, Team Manager and Frontend Developer at Acotel Interactive, brazilian office. I work with multiples projects with multiple offices around the world. I have full experience on HTML/JS/CSS, AngularJS, jQuery, SASS/LESS. Belive me, I love what I do."
+        },
+        "footer" : {
+            "copyright": "&copy; 2015 <a href='https://github.com/ErickXavier/material-developer-website' target='_blank'>Creative Commons</a> Erick Xavier",
+            "bottomline": "Made with &#x2661;."
+        },
+        "form" : {
+            "name" : "Name",
+            "email" : "Email",
+            "message" : "Message",
+            "send" : "Send"
+        }
+    }
+]

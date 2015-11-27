@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html ng-app="MaterialApp" ng-controller="MainController">
+<head>
+    <title>{{aboutme.website.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Student at University of Sussex, Multimedia Developer, UI/UX Designer, Entreprenerd, Brighton" />
+    <meta name="keywords" content="Samet, Erpik, Erick Xavier, samet erpik, abdul erpik , abdul samet erpik ,samerpik, " />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="1 day" />
+    <meta name="ROBOTS" content="All" />
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38391889-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- CSS STYLES -->
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link href="/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="favicon.png" type="icon" rel="favicon" />
+
+    <!-- ANGULAR SCRIPTS -->
+    <script type="text/javascript" src="/js/angular.min.js"></script>
+    <script type="text/javascript" src="/js/app/app.js"></script>
+    <script type="text/javascript" src="/js/app/main.ctl.js"></script>
+
+    <script src="/js/validation.js" type="text/javascript"></script>
+    <!-- Hotjar Tracking Code for www.erpik.com --
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:67117,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script> -->
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="parallax-container" id="top">
+        <div class="parallax"><img src="img/header2.1.jpg" alt="designers office"></div>
+        <!-- nav -->
+        <nav class="">
+            <div class="nav-wrapper container">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="hide-on-med-and-down ">
+                    <li><a class="waves-effect waves-light" href="#about">{{aboutme.header.menu.aboutme}}</a></li>
+                    <li><a class="waves-effect waves-light" href="#portfolio">{{aboutme.header.menu.portfolio}}</a></li>
+                    <li><a class="waves-effect waves-light" href="#timeline">{{aboutme.header.menu.experience}}</a></li>
+                    <li><a class="waves-effect waves-light" href="#lab">{{aboutme.header.menu.lab}}</a></li>
+                    <!-- <li><a class="waves-effect waves-light" href="#blog">{{aboutme.header.menu.blog}}</a></li> -->
+                    <li><a class="waves-effect waves-light" href="#contact">{{aboutme.header.menu.contact}}</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo" style="left: -250px;">
+                    <li><a class="waves-effect waves-light" href="#about">about me</a></li>
+                    <li><a class="waves-effect waves-light" href="#portfolio">portfolio</a></li>
+                    <li><a class="waves-effect waves-light" href="#timeline">experience</a></li>
+                    <li><a class="waves-effect waves-light" href="#lab">lab</a></li>
+                    <!-- <li><a class="waves-effect waves-light" href="#blog">blog</a></li> -->
+                    <li><a class="waves-effect waves-light" href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /nav -->
+        <div class="header-top center-align container">
+            <h1 class="white-text">{{aboutme.header.title}}</h1>
+            <h2 class="white-text">{{aboutme.header.headline}}</h2>
+        </div>
+
+    </div>
+    <!-- /HEADER -->
+    <br/>
+
+    <ng-include src="'/includes/aboutme.html'"></ng-include>
+    <ng-include src="'/includes/portfolio.html'"></ng-include>
+    <ng-include src="'/includes/experience.html'"></ng-include>
+    <ng-include src="'/includes/lab.html'"></ng-include>
+    <!-- <ng-include src="'/includes/blog.html'"></ng-include> -->
+    <ng-include src="'/includes/contact.html'"></ng-include>
+    <ng-include src="'/includes/footer.html'"></ng-include>
+    <ng-include src="'/includes/modals.html'"></ng-include>
+
+    <div class="fixed-action-btn" style="bottom: 25px; right: 25px;">
+        <a class="btn-floating btn-large waves-effect waves-light cyan" href="#top"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //parallax effect
+            $(".parallax").parallax();
+            !function(a) {
+                a(function() {
+                    a(".button-collapse").sideNav();
+                    a(".modal-trigger").leanModal();
+                });
+            }(jQuery);
+        });
+        // Scroll to Section
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $( $(this).attr('href') );
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

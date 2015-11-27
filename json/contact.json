@@ -1,0 +1,20 @@
+[
+    {
+        "title" : "Contact",
+        "intro" : "I am always open to new ideas and visions. If you have an idea and would like to discuss, send me a message!",
+        "social" : {
+            "linkedin": "erickxavier",
+            "facebook": "erick.xavier",
+            "twitter": "ErickXavier",
+            "instagram": "erickxavier",
+            "codepen": "",
+            "tumblr": ""
+        },
+        "form" : {
+            "name" : "Name",
+            "email" : "Email",
+            "message" : "Message",
+            "send" : "Send"
+        }
+    }
+]

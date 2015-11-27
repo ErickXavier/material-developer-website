@@ -1,0 +1,67 @@
+    <!-- Include Contact form -->
+    <section id="contact">
+        <!-- contact form -->
+        <div class="container fade-in" style="display: block; opacity: 1;">
+            <div class="section">
+                <div class="row">
+                    <h3 class="red-text lighten-1">{{contact.title}}</h3>
+                    <div class="col s12 m4">
+                        <p ng-if="contact.intro">{{contact.intro}}</p>
+                        <ul class="icons" style="color: #ed2f4b;">
+                            <li>
+                                <a target="_blank" ng-if="contact.social.linkedin" href="https://linkedin.com/in/{{contact.social.linkedin}}" class="fa fa-linkedin-square"><span class="label pink-text accent-2">linkedin</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" ng-if="contact.social.facebook" href="https://fb.me/{{contact.social.facebook}}" class="fa fa-facebook-square"><span class="label pink-text accent-2">facebook</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" ng-if="contact.social.twitter" href="https://twitter.com/{{contact.social.twitter}}" class="fa fa-twitter"><span class="label pink-text accent-2">twitter</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" ng-if="contact.social.instagram" href="https://instagram.com/{{contact.social.instagram}}/" class="fa fa-instagram"><span class="label pink-text accent-2">instagram</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" ng-if="contact.social.codepen" href="https://codepen.io/{{contact.social.codepen}}/" class="fa fa-codepen"><span class="label pink-text accent-2">codepen</span></a>
+                            </li>
+                            <li>
+                                <a target="_blank" ng-if="contact.social.tumblr" href="https://www.tumblr.com/blog/{{contact.social.tumblr}}" class="fa fa-tumblr-square"><span class="label pink-text accent-2">tumblr</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m8 indigo-text">
+                        <form id="contactForm" novalidate="novalidate" _lpchecked="1">
+                            <div class="input-field">
+                                <input id="nameField" type="text" name="name" required="" data-schema-key="name" maxlength="50">
+                                <label for="name" class="">
+                                    {{contact.form.name}}
+                                </label>
+                            </div>
+                            <div class="input-field">
+                                <input id="emailField" type="text" name="email" required="" data-schema-key="email">
+                                <label for="email">
+                                    {{contact.form.email}}
+                                </label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="commentField" name="message" rows="5" required="" data-schema-key="message" maxlength="1000" class="materialize-textarea"></textarea>
+                                <label for="message">
+                                    {{contact.form.message}}
+                                </label>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <div id="contactdivT">
+                                        <button id="submitBtn" onclick="validator()" class="waves-effect waves-light pink accent-2 btn">
+                                            {{contact.form.send}} <i class="mdi-content-send right"></i>
+                                        </button>
+                                        <p class="pink-text accent-2" id="messageP"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </section>

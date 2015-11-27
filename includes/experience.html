@@ -1,0 +1,19 @@
+
+    <!-- include timeline -->
+    <section id="timeline">
+        <div class="container" id="content">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h3 class="red-text lighten-1 left-align">{{experience.title}}</h3>
+                    <p class="flow-text" ng-if="experience.intro">{{experience.intro}}</p>
+                    <ul class="timeline">
+                        <li class="event" data-date="{{item.date}}" ng-repeat="item in experience.timeline">
+                            <h3>{{item.title}}</h3>
+                            <p>{{item.description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Include Lab Items -->

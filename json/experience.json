@@ -1,0 +1,33 @@
+[
+    {
+        "title" : "Experience",
+        "intro" : "",
+        "timeline" : [
+            {
+                "date": "2013/Present",
+                "title": "Team Manager, Frontend Developer, Unity3D Developer, Project Analyst",
+                "description": "I've started as a Frontend Developer for the project called Skillsweet. The team grown and I assumed the team management. The project consists in game development, games to work inside the main website, as Facebook apps and on major mobile platforms. Even working in Brazil, the project is managed from the headquarter located in NY. Today we are focusing in Unity3D mobile games development."
+            },{
+                "date": "2010/2013",
+                "title": "Senior Developer PHP & Frontend",
+                "description": "I've worked without a team on the tourism website projects. All the project was using PHP+MySQL and HTML5+JS+CSS. My responsibilities there included UX and sometimes UI planning and development."
+            },{
+                "date": "2009/2010",
+                "title": "FrontEnd Developer",
+                "description": "I've worked mainly with Wordpress plugins and themes development, using HTML, CSS, JS and of course, some PHP."
+            },{
+                "date": "2008/2009",
+                "title": "PHP & Frontend Developer",
+                "description": "Worked mainly with HTML, CSS and JS (jQuery and some MVC frameworks as well). Used to make some PHP and MySQL there too."
+            },{
+                "date": "2006/2007",
+                "title": "PHP Developer",
+                "description": "I've worked mainly with PHP and MySQL, we was using CodeIgniter as framework."
+            },{
+                "date": "2005/2006",
+                "title": "PHP & Frontend Developer",
+                "description": "Worked mainly with PHP and MySQL. Most of the tasks was including some HTML and JS too."
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "Portfolio",
+        "intro" : "Some of my work",
+        "labels" : {
+            "readmore" : "Read more",
+            "checkonline" : "Check it online"
+        },
+        "album" : [
+            {
+                "title": "Bucksense Mobile",
+                "image" : "bucksense.png",
+                "short" : "AngularJS, RestAngular and Chart.js",
+                "description": "I've started as a Frontend Developer for the project called Skillsweet. The team grown and I assumed the team management. The project consists in game development, games to work inside the main website, as Facebook apps and on major mobile platforms. Even working in Brazil, the project is managed from the headquarter located in NY. Today we are focusing in Unity3D mobile games development.",
+                "link": "",
+                "company" : {
+                    "name" : "Acotel Interactive",
+                    "short" : "Interactive Media"
+                }
+            }
+        ]
+    }
+]
