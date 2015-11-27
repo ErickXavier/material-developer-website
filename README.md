@@ -11,5 +11,6 @@ TO-DOs:
 - contact.php to send the email of the contact form
 - integration with common RSS/XML to fill the BLOG area
 - finalize the Lab area
+- hide the 'top button' when not necessary
 
 So, feel free to fork and use for your own website ;)
