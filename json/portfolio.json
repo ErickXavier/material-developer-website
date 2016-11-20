@@ -11,11 +11,66 @@
                 "title": "Bucksense Mobile",
                 "image" : "bucksense.png",
                 "short" : "AngularJS, RestAngular and Chart.js",
-                "description": "I've started as a Frontend Developer for the project called Skillsweet. The team grown and I assumed the team management. The project consists in game development, games to work inside the main website, as Facebook apps and on major mobile platforms. Even working in Brazil, the project is managed from the headquarter located in NY. Today we are focusing in Unity3D mobile games development.",
-                "link": "",
+                "description": "The project was to develop the frontend of an app version of the app called Bucksense. I've used MobileAngularUI, AngularJS, RestAngular and Chart.js to accomplish the required objectives.",
+                "link": "http://bucksense.com/",
                 "company" : {
                     "name" : "Acotel Interactive",
                     "short" : "Interactive Media"
+                }
+            },
+            {
+                "title": "SkillSweet",
+                "image" : "skillsweet.png",
+                "short" : "jQuery, LESS, Flash Games",
+                "description": "I've maintained the SkillSweet for almost 3 years, upgrading and optimizing it. I've developed the mobile version too.",
+                "link": "http://skillsweet.com/",
+                "company" : {
+                    "name" : "Acotel Interactive",
+                    "short" : "Interactive Media"
+                }
+            },
+            {
+                "title": "Inventário Turístico",
+                "image" : "inventarioturistico.png",
+                "short" : "Responsive, jQuery, LESS",
+                "description": "The website had to be built in 1 week. For this I've used 960.gs grid system to make it responsive on an easy and fast way. Used jQuery and LESS for plugins and speed too.",
+                "link": "http://inventarioturistico.com.br/",
+                "company" : {
+                    "name" : "Instituto IDEIAS",
+                    "short" : "Inventários Turísticos"
+                }
+            },
+            {
+                "title": "Instituto IDEIAS",
+                "image" : "ideias.png",
+                "short" : "Responsive, jQuery, LESS",
+                "description": "The main website of the company, had to be fully responsive, I've used 960.gs and LESS. For the carousels and other interface apps I've used jQuery with some plugins.",
+                "link": "http://ideias.org.br/",
+                "company" : {
+                    "name" : "Instituto IDEIAS",
+                    "short" : "Inventários Turísticos"
+                }
+            },
+            {
+                "title": "Destino Petrópolis",
+                "image" : "destinopetropolis.png",
+                "short" : "Responsive, jQuery, LESS",
+                "description": "Templated developed for the city of Petrópolis, Rio de Janeiro, Brazil. For easy of maintainance I've used jQuery, LESS and 960.gs grid system.",
+                "link": "http://destinopetropolis.com.br/",
+                "company" : {
+                    "name" : "Instituto IDEIAS",
+                    "short" : "Inventários Turísticos"
+                }
+            },
+            {
+                "title": "Visite São Pedro da Aldeia",
+                "image" : "visitesaopedrodaaldeia.png",
+                "short" : "Responsive, jQuery, LESS",
+                "description": "Templated developed for the city of São Pedro da Aldeia, Rio de Janeiro, Brazil. For easy of maintainance I've used jQuery, LESS and 960.gs grid system.",
+                "link": "http://visitesaopedrodaaldeia.com.br/",
+                "company" : {
+                    "name" : "Instituto IDEIAS",
+                    "short" : "Inventários Turísticos"
                 }
             }
         ]
