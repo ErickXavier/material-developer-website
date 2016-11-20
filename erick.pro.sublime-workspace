@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"bacgrou",
+				"background-position"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"up",
 				"updateParams"
 			],
@@ -36,26 +44,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/style.css",
+			"file": "css/styles.less",
 			"settings":
 			{
-				"buffer_size": 4711,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/portfolio.html",
-			"settings":
-			{
-				"buffer_size": 2506,
+				"buffer_size": 5623,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +55,7 @@
 			"file": "js/app/app.js",
 			"settings":
 			{
-				"buffer_size": 111,
+				"buffer_size": 335,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +63,63 @@
 			"file": "js/app/main.ctl.js",
 			"settings":
 			{
-				"buffer_size": 394,
+				"buffer_size": 1393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/aboutme.html",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "json/aboutme.json",
+			"settings":
+			{
+				"buffer_size": 1298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/contact.html",
+			"settings":
+			{
+				"buffer_size": 4407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/portfolio.html",
+			"settings":
+			{
+				"buffer_size": 2231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "json/portfolio.json",
+			"settings":
+			{
+				"buffer_size": 1014,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +127,7 @@
 			"file": "includes/experience.html",
 			"settings":
 			{
-				"buffer_size": 666,
+				"buffer_size": 776,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +135,7 @@
 			"file": "json/experience.json",
 			"settings":
 			{
-				"buffer_size": 1672,
+				"buffer_size": 1971,
 				"line_ending": "Unix"
 			}
 		}
@@ -106,6 +154,34 @@
 			[
 				"spaces",
 				"Indentation: Convert to Spaces"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"reindet",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"j",
@@ -128,24 +204,12 @@
 				"Javascript Beautify"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"reindent",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"indent",
 				"Indentation: Reindent Lines"
 			],
 			[
 				"space",
 				"Indentation: Convert to Spaces"
-			],
-			[
-				"delete",
-				"Trailing Spaces: Delete Trailing Spaces"
 			],
 			[
 				"html",
@@ -161,10 +225,6 @@
 			],
 			[
 				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"reindet",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -192,16 +252,8 @@
 				"Trailing Spaces: Delete Trailing Spaces"
 			],
 			[
-				"css",
-				"Set Syntax: CSS"
-			],
-			[
 				"inde",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"indn",
@@ -318,11 +370,20 @@
 	],
 	"file_history":
 	[
+		"/Library/WebServer/Documents/erick.pro/includes/contact.html",
+		"/Library/WebServer/Documents/erick.pro/includes/experience.html",
+		"/Library/WebServer/Documents/erick.pro/js/app/app.js",
+		"/Library/WebServer/Documents/erick.pro/json/experience.json",
+		"/Library/WebServer/Documents/erick.pro/json/contact.json",
+		"/Library/WebServer/Documents/erick.pro/css/styles.css",
+		"/Users/erick/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Library/WebServer/Documents/erick.pro/css/styles.less",
+		"/Users/erick/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Library/WebServer/Documents/erick.pro/css/style.css",
 		"/Applications/Minecraft/Tekkit/Tekkit_Server_v1.2.9g/server.properties",
 		"/Applications/Minecraft/bukkit/bkp-2015-11-15/server.properties",
 		"/Applications/Minecraft/Tekkit/Tekkit_Server_v1.2.9g/white-list.txt",
 		"/Library/WebServer/Documents/erick.pro/js/app/json/experience.json",
-		"/Library/WebServer/Documents/erick.pro/json/experience.json",
 		"/Library/WebServer/Documents/erick.pro/js/angular.min.js",
 		"/Library/WebServer/Documents/erick.pro/includes/aboutme.html",
 		"/Library/WebServer/Documents/erick.pro/includes/portfolio",
@@ -332,7 +393,6 @@
 		"/Library/WebServer/Documents/erick.pro/includes/contact",
 		"/Library/WebServer/Documents/erick.pro/includes/modals",
 		"/Library/WebServer/Documents/erick.pro/includes/footer",
-		"/Library/WebServer/Documents/erick.pro/css/style.css",
 		"/Library/WebServer/Documents/erick.pro/js/validation.js",
 		"/Users/erick/Library/Application Support/Sublime Text 3/Packages/User/SVN.errors.log",
 		"/Library/WebServer/Documents/public_html/web/bsmobile/basejs/app/OfferList.ctl.js",
@@ -437,15 +497,7 @@
 		"/Users/erick/Projetos/Jarvis/site/index.html",
 		"/Users/erick/Projetos/Jarvis/site/css/style.css",
 		"/Users/erick/Projetos/Jarvis/site/js/weather.js",
-		"/Users/erick/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/erick/Projetos/Jarvis/site/styles.less",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/system/database/drivers/mysqli/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/application/web_default/views/default/offers/skill-sweet-default/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/application/web_default/controllers/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/system/database/drivers/sqlite/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/system/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/application/web_default/logs/index.html",
-		"/Users/erick/Sites/_ACOTEL/skillsweet/system/database/drivers/index.html"
+		"/Users/erick/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
 	],
 	"find":
 	{
@@ -478,6 +530,28 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"lab",
+			"website",
+			"lab",
+			"owner",
+			"website",
+			"experience",
+			"portfolio",
+			"experience",
+			" !== ''",
+			"contact.",
+			"experience",
+			" != ",
+			"target=\"_blank\"",
+			"linkedin",
+			"<li>",
+			"linkedin",
+			"'",
+			"experience",
+			"\"href=",
+			"clean",
+			"favicon",
+			"footer-copyright",
 			"pack",
 			"max-tick-time",
 			"spawn-protection",
@@ -583,29 +657,7 @@
 			"put",
 			"config.restangularFields",
 			"restangularFields",
-			"config",
-			"restangularFields",
-			"config.restangularFields",
-			"restangular",
-			"status",
-			".put",
-			".PUT",
-			"PUT",
-			"POST",
-			"put",
-			"all",
-			"'all'",
-			"'get'",
-			"put",
-			"API",
-			"updateStatus",
-			"play",
-			"background: #",
-			"background-color",
-			"panel-heading",
-			"country",
-			"label",
-			"yyyyMMddTHHmmssZ"
+			"config"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -613,6 +665,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			"\" href=",
 			"	},{\n",
 			">\n<",
 			">\n\n<",
@@ -651,163 +705,66 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
+					"file": "css/styles.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4711,
+						"buffer_size": 5623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								177
+								102,
+								102
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 17,
+							"function_name_status_row": 7,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4787,
-								4787
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 88,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 981.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "includes/portfolio.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1293,
-								1293
-							]
-						],
-						"settings":
-						{
-							"function_name_status_row": 24,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "js/app/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 111,
+						"buffer_size": 335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								315,
+								315
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 1,
+							"function_name_status_row": 7,
 							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/app/main.ctl.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 394,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								389,
-								389
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"function_name_status_row": 14,
-							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
@@ -819,29 +776,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "includes/experience.html",
+					"buffer": 2,
+					"file": "js/app/main.ctl.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 666,
+						"buffer_size": 1393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								355,
-								364
+								73,
+								65
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 8,
+							"auto_name": "",
+							"function_name_status_row": 1,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -853,25 +811,59 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "json/experience.json",
+					"buffer": 3,
+					"file": "includes/aboutme.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1672,
+						"buffer_size": 593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								21
+								407,
+								407
 							]
 						],
 						"settings":
 						{
-							"function_name_status_row": 2,
+							"function_name_status_row": 9,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "json/aboutme.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 22,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -883,7 +875,243 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 5,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "includes/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2314,
+								4313
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": -1,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 573.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4849,
+								4849
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 87,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1006.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "includes/portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1558,
+								1558
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 26,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "json/portfolio.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 14,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "includes/experience.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								478
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 9,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "json/experience.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"function_name_status_row": 3,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -932,7 +1160,7 @@
 	"project": "erick.pro.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -942,12 +1170,20 @@
 		"selected_items":
 		[
 			[
-				"port",
-				"includes/portfolio.html"
+				"contact",
+				"includes/contact.html"
 			],
 			[
 				"experience",
 				"includes/experience.html"
+			],
+			[
+				"footer",
+				"includes/footer.html"
+			],
+			[
+				"port",
+				"includes/portfolio.html"
 			],
 			[
 				"angular",
@@ -1134,6 +1370,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/Library/WebServer/Documents/bucksense.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
