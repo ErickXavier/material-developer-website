@@ -233,6 +233,12 @@ Responsive Stuff
   div.portfolio-container.container {
     margin-top: 0px;
   }
+  
+  .portfolio .card-img-wrap {
+    max-height: 263px;
+    overflow: hidden;
+    vertical-align: top;
+  }
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
