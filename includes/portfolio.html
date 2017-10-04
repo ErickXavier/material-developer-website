@@ -5,31 +5,31 @@
             <!-- firstrow -->
             <div class="row">
                 <div class="portfolio-header">
-                    <h3 class="white-text">{{portfolio.title}}</h3>
-                    <p class="flow-text white-text" ng-if="portfolio.intro">{{portfolio.intro}}</p>
+                    <h3 class="white-text" ng-bind="portfolio.title"></h3>
+                    <p class="flow-text white-text" ng-if="portfolio.intro" ng-bind="portfolio.intro"></p>
                 </div>
 
                 <!-- portfolio item -->
                 <div class="col s12 m6 l4" ng-repeat="item in portfolio.album">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <h2 class="left-align card-title-top">{{item.title}}</h2>
+                            <h2 class="left-align card-title-top" ng-bind="item.title"></h2>
                             <div class="valign-wrapper card-img-wrap">
                                 <img class="activator" src="img/portfolio/{{item.image}}" alt="{{item.title}}" title="{{item.title}}">
                             </div>
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator brand-text red-text">{{portfolio.labels.readmore}}<i class="mdi-navigation-more-vert right"></i></span>
-                            <p ng-if="item.short">{{item.short}}</p>
+                            <span class="card-title activator brand-text red-text"><span ng-bind="portfolio.labels.readmore"></span><i class="mdi-navigation-more-vert right"></i></span>
+                            <p ng-if="item.short" ng-bind="item.short"></p>
                         </div>
                         <div class="card-reveal">
                             <div class="rev-title-wrap">
-                                <span class="card-title brand-text red-text">{{item.company.name}}<i class="mdi-navigation-close red-text right"></i></span>
-                                <p class="grey-text" ng-if="item.company.short">{{item.company.short}}</p>
+                                <span class="card-title brand-text red-text"><span ng-bind="item.company.name"></span><i class="mdi-navigation-close red-text right"></i></span>
+                                <p class="grey-text" ng-if="item.company.short" ng-bind="item.company.short"></p>
                             </div>
                             <p class="rev-content">
-                                {{item.description}}
-                                <p><a target="_blank" ng-if="item.link" href="{{item.link}}">{{portfolio.labels.checkonline}}</a></p>
+                                <span ng-bind="item.description"></span>
+                                <p><a target="_blank" ng-if="item.link" href="{{item.link}}" ng-bind="portfolio.labels.checkonline"></a></p>
                             </p>
                         </div>
                     </div>
