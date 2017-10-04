@@ -4,7 +4,11 @@
         "intro" : "",
         "timeline" : [
             {
-                "date": "2013/Present",
+                "date": "2016/present",
+                "title": "Freelancer Frontend Developer and Consultant",
+                "description": "Since I left Acotel I'm for new opportunities that allows me to increase my expertise and entrepreneur knowledge. I'm currently involved in new 'do it yourself' adventures."
+            },{
+                "date": "2013/2016",
                 "title": "Team Manager, Frontend Developer, Unity3D Developer, Project Analyst",
                 "description": "I've started as a Frontend Developer for the project called Skillsweet. The team grown and I assumed the team management. The project consists in game development, games to work inside the main website, as Facebook apps and on major mobile platforms. Even working in Brazil, the project is managed from the headquarter located in NY. Today we are focusing in Unity3D mobile games development."
             },{
