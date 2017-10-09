@@ -5,7 +5,7 @@
         },
         "header" : {
             "title" : "Erick Xavier",
-            "headline" : "Front End Developer | This website is a work in progress",
+            "headline" : "Front End Developer | AngularJS, SASS/LESS, Bootstrap, jQuery",
             "menu" : {
                 "aboutme" : "about me",
                 "portfolio" : "portfolio",
@@ -17,7 +17,7 @@
         },
         "owner" : {
             "title" : "A little about me",
-            "description" : "I'm a 33yo Front End Developer, and currently, Team Manager and Frontend Developer at Acotel Interactive, brazilian office. I work with multiples projects with multiple offices around the world. I have full experience on HTML/JS/CSS, AngularJS, jQuery, SASS/LESS. Belive me, I love what I do.<br><br>To know more about this HTML, please go to <a href='https://github.com/ErickXavier/material-developer-website' target='_blank'>my GitHub project</a>."
+            "description" : "Hi.<br><br>My name is Erick Xavier and I am a passionate Front End Developer with more than 10 years of experience.<br><br>I've delivered dozens of websites for fully satisfied clients and teams I've worked with. In my previous experience I've worked with offices all around the globe, including NYC, Rome, Bangalore, Mexico City and others. I'm experienced in HTML, CSS, JS and the frameworks jQuery, AngularJS, SASS and LESS. My focus, discipline and learning capacity care my most valuable assets.<br><br>In my free time I love to ride my motorcycle around my city and visit new places.<br><br>If you wish to present new opportunities or know more about me, please don't hesitate to contact me soon as you can."
         },
         "footer" : {
             "copyright": "&copy; 2015 <a href='https://github.com/ErickXavier/material-developer-website' target='_blank'>Creative Commons</a> Erick Xavier",
