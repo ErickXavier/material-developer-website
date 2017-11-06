@@ -193,16 +193,20 @@ section.blog {
 Footer
 ———————————————*/
 ul.icons {
-    a {
-        color: #03A9F4;
-        font-size: 20px;
-        &:hover {
-            color: #727272;
+    display: flex;
+    li.icon {
+        flex: auto;
+        a {
+            color: #03A9F4;
+            font-size: 20px;
+            &:hover {
+                color: #727272;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
-    }
-    span.label {
-        padding-left: 10px;
-        font-size: 16px;
     }
 }
 footer.page-footer {
