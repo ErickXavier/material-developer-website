@@ -1,4 +1,3 @@
-
 [
     {
         "title" : "Contact",
@@ -7,28 +6,24 @@
             {
                 "title": "GitHub",
                 "site": "github",
-                "url": "//github.com/ErickXavier",
-            },
-            {
+                "url": "//github.com/ErickXavier"
+            },{
                 "title": "LinkedIn",
                 "site": "linkedin",
-                "url": "//linkedin.com/in/erickxavier",
-            },
-            {
+                "url": "//linkedin.com/in/erickxavier"
+            },{
                 "title": "WhatsApp",
                 "site": "whatsapp",
-                "url": "//api.whatsapp.com/send?phone=5521972277224",
-            },
-            {
+                "url": "//api.whatsapp.com/send?phone=5521972277224"
+            },{
                 "title": "Facebook",
                 "site": "facebook",
-                "url": "//fb.me/erick.xavier",
-            },
-            {
+                "url": "//fb.me/erick.xavier"
+            },{
                 "title": "Twitter",
                 "site": "twitter",
-                "url": "//twitter.com/ErickXavier",
-            },
+                "url": "//twitter.com/ErickXavier"
+            }
         ],
         "form" : {
             "name" : "Name",

@@ -9,7 +9,7 @@
                         <p ng-if="contact.intro">{{contact.intro}}</p>
                         <ul class="icons" style="color: #ed2f4b;">
                             <li ng-repeat="item in contact.social">
-                                <a target="_blank" href="{{item.url}}" class="icon"><img src="/img/social/{{item.site}}.svg" alt="{{item.title}}" /></a>
+                                <a target="_blank" href="{{item.url}}" class="icon"><img ng-src="/img/social/{{item.site}}.svg" alt="{{item.title}}" /></a>
                             </li>
                         </ul>
                     </div>
