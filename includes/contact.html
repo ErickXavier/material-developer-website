@@ -5,9 +5,9 @@
             <div class="section">
                 <div class="row">
                     <h3 class="red-text lighten-1">{{contact.title}}</h3>
-                    <div class="col s12 m4">
+                    <div class="col s12 m12">
                         <p ng-if="contact.intro">{{contact.intro}}</p>
-                        <ul class="icons" style="color: #ed2f4b;">
+                        <ul class="icons">
                             <li class="icon" ng-repeat="item in contact.social">
                                 <a target="_blank" href="{{item.url}}"><img ng-src="/img/social/{{item.site}}.svg" alt="{{item.title}}" /></a>
                             </li>
