@@ -1,4 +1,7 @@
 /* Materilize CSS Overrides */
+* {
+    transition: all 300ms ease-out;
+}
 nav {
     background-color: transparent;
     box-shadow: none;
@@ -135,6 +138,9 @@ div.portfolio-container
 {
   /*border: 1px solid orange;*/
 }
+.hidden {
+    display: none;
+}
 .portfolio .card-img-wrap {
     max-height: 263px;
     overflow: hidden;
@@ -192,6 +198,9 @@ section.blog {
 /*——————————————
 Footer
 ———————————————*/
+footer.page-footer {
+    margin-top: 0;
+}
 ul.icons {
     display: flex;
     margin-top: 60px;
@@ -203,19 +212,19 @@ ul.icons {
             font-size: 20px;
             &:hover {
                 img {
-                    filter: drop-shadow(0 5px 5px rgba(0,0,0,.3));
+                    filter: none;
                 }
             }
             img {
                 width: 50%;
                 height: auto;
+                filter: saturate(0) brightness(3000%) grayscale(100%);
             }
         }
     }
 }
 footer.page-footer {
     .footer-copyright {
-        background-color: rgba(0,0,0,.1);
         a {
             color: white;
             font-weight: bold;
