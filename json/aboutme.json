@@ -21,7 +21,7 @@
         },
         "footer" : {
             "copyright": "&copy; 2015 <a href='https://github.com/ErickXavier/material-developer-website' target='_blank'>Creative Commons</a> Erick Xavier",
-            "bottomline": "Made with <b>&#x2661;</b>."
+            "bottomline": "Made with <b class=\"red-text\">&#x2661;</b>."
         },
         "form" : {
             "name" : "Name",
