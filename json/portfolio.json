@@ -63,7 +63,7 @@
                 }
             },
             {
-                "title": "Visite São Pedro da Aldeia",
+                "title": "São Pedro da Aldeia",
                 "image" : "/img/portfolio/visitesaopedrodaaldeia.png",
                 "short" : "Responsive, jQuery, LESS",
                 "description": "Templated developed for the city of São Pedro da Aldeia, Rio de Janeiro, Brazil. For easy of maintainance I've used jQuery, LESS and 960.gs grid system.",
