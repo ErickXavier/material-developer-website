@@ -5,27 +5,27 @@
         "social" : [
             {
                 "title": "GitHub",
-                "site": "github",
+                "class": "fa-github-square",
                 "url": "//github.com/ErickXavier"
             },{
                 "title": "LinkedIn",
-                "site": "linkedin",
+                "class": "fa-linkedin-square",
                 "url": "//linkedin.com/in/erickxavier"
             },{
                 "title": "WhatsApp",
-                "site": "whatsapp",
+                "class": "fa-whatsapp",
                 "url": "//api.whatsapp.com/send?phone=5521972277224"
             },{
                 "title": "Facebook",
-                "site": "facebook",
+                "class": "fa-facebook-square",
                 "url": "//fb.me/erickxavier"
             },{
                 "title": "Messenger",
-                "site": "messenger",
+                "class": "fa-comment",
                 "url": "//m.me/erickxavier"
             },{
                 "title": "Twitter",
-                "site": "twitter",
+                "class": "fa-twitter-square",
                 "url": "//twitter.com/ErickXavier"
             }
         ],
