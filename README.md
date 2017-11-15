@@ -15,5 +15,6 @@ First version was made by http://www.erpik.com/ and with his permission, I integ
 - hide the 'top button' when not necessary
 
 
-### Creative Commons
+### Public Domain
+https://creativecommons.org/publicdomain/zero/1.0/
 So, feel free to fork and use for your own website ;)
