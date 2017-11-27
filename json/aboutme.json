@@ -20,7 +20,7 @@
             "description" : "I'm 35 years old and a passionate Front End Developer with more than 10 years of experience. I've delivered dozens of websites for fully satisfied clients and teams I've worked with. In my previous experience I've worked with offices all around the globe, including NYC, Rome, Bangalore, Mexico City and others. I'm experienced in HTML, CSS, JS and the frameworks jQuery, AngularJS, SASS and LESS. My focus, discipline and learning capacity care my most valuable assets."
         },
         "footer" : {
-            "copyright": "&copy; 2017 <a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Public Domain</a> Erick Xavier",
+            "copyright": "&copy; 2017 <a href='https://creativecommons.org/publicdomain/zero/1.0/' target='_blank'>Public Domain</a>",
             "bottomline": "Made with <b class=\"red-text\">&#x2661;</b>."
         },
         "form" : {
