@@ -129,10 +129,13 @@ div.portfolio-container {
 .hidden {
   display: none;
 }
-.portfolio .card-img-wrap {
-  max-height: 263px;
-  overflow: hidden;
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
   vertical-align: top;
+  max-height: 263px;
 }
 h2.card-title-top {
   color: #727272;
