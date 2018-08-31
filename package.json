@@ -4,7 +4,7 @@
   "description": "This is a template for developers/designers/etc who doesn't have much time to create their own website and/or portfolio online.",
   "main": "index.html",
   "dependencies": {
-    "angular": "^1.4.7"
+    "angular": "^1.7.3"
   },
   "devDependencies": {},
   "scripts": {
