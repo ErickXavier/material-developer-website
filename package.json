@@ -1,0 +1,23 @@
+{
+  "name": "erickxavier.github.io",
+  "version": "1.0.0",
+  "description": "This is a template for developers/designers/etc who doesn't have much time to create their own website and/or portfolio online.",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickXavier/erickxavier.github.io.git"
+  },
+  "author": "ErickXavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickXavier/erickxavier.github.io/issues"
+  },
+  "homepage": "https://github.com/ErickXavier/erickxavier.github.io#readme"
+}
